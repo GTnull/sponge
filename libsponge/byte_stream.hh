@@ -24,7 +24,7 @@ class ByteStream {
     size_t _remain;
     size_t _nwritten;
     size_t _nread;
-
+    bool _end_input;
     bool _error{};  //!< Flag indicating that the stream suffered an error.
 
   public:
